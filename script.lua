@@ -15,4 +15,4 @@
 
 -- ## Enter to Recovery Mode ## 
 -- ## Entrar al Modo Recovery / Recuperación ##
-dofile("uxmb_recovery.lua")
+dofile("uxmb_recovery.pacme")

@@ -1,0 +1,2 @@
+splash.old("img/boot.png")
+screen.flip()

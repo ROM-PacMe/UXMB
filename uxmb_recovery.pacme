@@ -36,7 +36,7 @@ end
 
 if buttons.cross then
     if option == 1 then
-    dofile("bootup.lua")
+    dofile("sys/bootup.pacme")
     elseif option == 2 then
     os.exit()
     end
