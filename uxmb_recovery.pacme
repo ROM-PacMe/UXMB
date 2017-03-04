@@ -36,12 +36,16 @@ end
 
 if buttons.cross then
     if option == 1 then
-    dofile("sys/bootup.pacme")
+        dofile("sys/greepy.pacme")
     elseif option == 2 then
     os.exit()
     end
 end
 
+-- ## Take a Screenshot ##
+if buttons.start then
+    screen.shot()
+end
 
 
 screen.flip()
